@@ -23,6 +23,11 @@ public class TopUser {
 	public int getKills() {
 		return kills;
 	}
+	
+	public int getRank() {
+		return 0;
+		//TODO make it return rank from cache or w/e
+	}
 
 	public void setKills(int kills) {
 		this.kills = kills;
